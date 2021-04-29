@@ -1,0 +1,186 @@
+@media(max-width: 768px) {
+
+  /*Nav bar*/
+#nav_bar ul {
+  justify-content: center;
+  margin-right: 1rem;
+}
+  
+#nav_bar ul li {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+ 
+/*Sections*/
+    
+/*Foto/cirkel decoratie*/
+.main-circle {
+  height: 200px;
+  width: 200px;
+  margin-top: -110px;
+  margin-left: 50px;
+}
+  
+.third-circle {
+  height: 150px;
+  width: 150px;
+  margin-top:-180px;
+  margin-left: 230px;
+}
+  
+.fourth-circle {
+  height: 100px;
+  width: 100px;
+  margin-top: -285px;
+  margin-left: 260px;
+}
+  
+.fifth-circle {
+  height: 50px;
+  width: 50px;
+  margin-top: -330px;
+  margin-left: 230px;
+}
+  
+.sixth-circle {
+  height: 200px;
+  width: 200px;
+  margin-top: -110px;
+  margin-left: -160px;
+}
+
+  
+#intro {
+  grid-template-columns: repeat(1, 1fr);
+  height: 220vh;
+}  
+  
+#intro .left {
+  padding-top: 5rem;
+  }
+  
+#intro.right {
+  padding: 0.5rem;
+}    
+  
+#intro p {
+  padding: 0.5rem;
+}
+  
+#intro .right h1::first-letter {
+  font-size: 50px;
+}
+  
+#intro .right h1 {
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+  
+#intro .right h2 {
+  font-size: 1.3rem;
+}
+ 
+  
+#over {
+  grid-template-columns: repeat(1, 1fr);
+  height: 185vh;
+}
+
+#over .left {
+  margin-top: 2rem;
+}
+
+#over .wireframe {
+  margin-left: 150px;
+  margin-top: 120px;
+  height: 450px;
+  width: 200px; 
+}
+  
+#testimonials {
+  grid-template-columns: repeat(1, 1fr);
+  height: 150vh;
+}
+
+#testimonials .card {
+  padding: 0.5rem;
+}
+  
+#testimonials .testi-img {
+  margin-left: 5.5rem;
+}
+  
+#testimonials .contact {
+  margin-left: 3rem;
+}
+   
+  
+#projecten {
+  grid-template-columns: repeat(1, 1fr);
+  height: 190vh;
+}
+   
+footer {
+  grid-template-columns: repeat(1, 1fr);
+}
+  
+}
+  
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    
+#nav_bar ul {
+  justify-content: center;
+}
+  
+#nav_bar ul li {
+  font-size: 20px;
+}
+    
+    
+#intro {
+  grid-template-columns: repeat(2, 1fr);
+  height: 90vh;
+  gap: 2rem;
+  padding: 1rem;
+}
+      
+#intro .right h1 {
+  margin-top: 2rem;
+}
+   
+  
+#intro p {
+  font-size: 14px;
+}
+     
+#over {
+  grid-template-columns: repeat(2, 1fr);
+  height: 80vh;
+  gap: 2rem;
+  
+}
+  
+#over .wireframe {
+  margin-left: 150px;
+  margin-top: 120px;
+  height: 480px;
+  width: 210px; 
+}
+  
+#testimonials {
+  grid-template-columns: repeat(2, 1fr);
+  height: 60vh;
+  gap: 2rem;
+}
+
+#testimonials .card {
+  margin-top: 2rem;
+}
+  
+#projecten {
+  grid-template-columns: repeat(2, 1fr);
+  height: 70vh;
+  gap: 2rem;
+}
+}
